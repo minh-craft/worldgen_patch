@@ -1,0 +1,36 @@
+[
+  {
+    "op": "add",
+    "path": "/effects/grass_color",
+    "value": 15920218
+  },
+# grass colors
+# 16051266
+# 16316479
+# 16448116
+# 16444261
+# 16509525 # starred
+# 14483303
+# 15465063
+# 16444263
+# 16448103
+# 16776038 # starred
+# 15920218 # savanna
+  {
+    "op": "add",
+    "path": "/effects/foliage_color",
+    "value": 16019535
+  }
+# {
+#   "op": "find",
+#   "path": "/features/9",
+#   "test": {
+#     "path": "",
+#     "value": "hybrid_beta:patch_grass_temperate_rainforest"
+#   },
+#   "then": {
+#     "op": "remove",
+#     "path": ""
+#   }
+# }
+]

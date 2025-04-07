@@ -1,0 +1,13 @@
+[
+  {
+    "op": "add",
+    "path": "/effects/grass_color",
+    "value": 15920218
+  },
+  {
+    "op": "add",
+    "path": "/effects/foliage_color",
+    "value": 16089644
+# 16300585
+  }
+]

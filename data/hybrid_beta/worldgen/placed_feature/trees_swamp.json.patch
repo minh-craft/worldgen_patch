@@ -1,0 +1,7 @@
+[
+  {
+    "op": "add",
+    "path": "/placement/2/max_water_depth",
+    "value": 4
+  }
+]

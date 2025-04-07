@@ -1,0 +1,19 @@
+[
+  {
+    "op": "find",
+    "path": "/features/9",
+    "test": {
+      "path": "",
+      "value": "hybrid_beta:trees_jungle"
+    },
+    "then": {
+      "op": "remove",
+      "path": ""
+    }
+  },
+  {
+    "op": "add",
+    "path": "/features/9/-",
+    "value": "minecraft:trees_jungle"
+  }
+]

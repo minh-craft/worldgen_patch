@@ -1,0 +1,6 @@
+{
+  "op": "add",
+  "path": "/placement/0/chance",
+  "value": 10
+# original is 5
+}

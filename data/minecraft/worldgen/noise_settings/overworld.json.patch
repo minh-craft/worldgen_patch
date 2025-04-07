@@ -1,0 +1,80 @@
+[
+  {
+    "op": "add",
+    "path": "/noise_router/final_density/argument1/argument/argument2/argument1/argument/argument/argument2/argument2/argument2/argument2/argument1/from_y",
+    "value": 112
+  },
+  {
+    "op": "add",
+    "path": "/noise_router/final_density/argument1/argument/argument2/argument1/argument/argument/argument2/argument2/argument2/argument2/argument1/to_y",
+    "value": 128
+  },
+  {
+    "op": "replace",
+    "path": "/noise_router/temperature/xz_scale",
+    "value": 0.4
+  },
+  {
+    "op": "replace",
+    "path": "/noise_router/vegetation/xz_scale",
+    "value": 0.35
+  }
+# {
+#   "op": "add",
+#   "path": "/surface_rule/sequence/1/then_run/sequence/7/then_run/sequence/1/then_run/sequence/-",
+#   "value": {
+#     "type": "minecraft:condition",
+#     "if_true": {
+#       "type": "minecraft:biome",
+#       "biome_is": [
+#         "minecraft:swamp"
+#       ]
+#     },
+#     "then_run": {
+#       "type": "minecraft:block",
+#       "result_state": {
+#         "Name": "minecraft:mud"
+#       }
+#     }
+#   }
+# },
+# {
+#   "op": "add",
+#   "path": "/surface_rule/sequence/1/then_run/sequence/6/then_run/sequence/1/then_run/sequence/-",
+#   "value": {
+#     "type": "minecraft:condition",
+#     "if_true": {
+#       "type": "minecraft:biome",
+#       "biome_is": [
+#         "minecraft:swamp"
+#       ]
+#     },
+#     "then_run": {
+#       "type": "minecraft:block",
+#       "result_state": {
+#         "Name": "minecraft:mud"
+#       }
+#     }
+#   }
+# }
+# {
+#   "op": "find",
+#   "path": "/surface_rule/sequence/1/then_run/sequence/6",
+#   "multi": true,
+#   "test": [
+#     {
+#       "path": "/biome_is"
+#       "value": "minecraft:mushroom_fields"
+#     }
+#   ],
+#   "then": [
+#     {
+#       "op": "replace",
+#       "path": "",
+#       "value": {
+#         "tag": "minecraft:swamp"
+#       }
+#     }
+#   ]
+# }
+]

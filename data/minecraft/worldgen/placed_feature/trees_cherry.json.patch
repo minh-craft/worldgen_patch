@@ -1,0 +1,25 @@
+# [
+#   {
+#     "op": "add",
+#     "path": "/placement/0/count/distribution/0/data",
+#     "value": 4
+#   },
+#   {
+#     "op": "add",
+#     "path": "/placement/0/count/distribution/1/data",
+#     "value": 8
+#   }
+# ]
+[
+  {
+    "op": "add",
+    "path": "/placement/0/count",
+    "value": {
+        "type": "minecraft:clamped_normal",
+        "mean": 5,
+        "deviation": 7,
+        "min_inclusive": 1,
+        "max_inclusive": 16
+      }
+  }
+]

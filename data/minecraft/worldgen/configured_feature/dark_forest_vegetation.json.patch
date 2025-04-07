@@ -1,0 +1,12 @@
+[
+  {
+    "op": "add",
+    "path": "/config/features/2/chance",
+    "value": 0.7666667
+  },
+  {
+    "op": "add",
+    "path": "/config/features/3/chance",
+    "value": 0.1
+  }
+]

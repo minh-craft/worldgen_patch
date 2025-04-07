@@ -1,0 +1,10 @@
+[
+  {
+    "op": "add",
+    "path": "/effects/grass_color",
+    "value": 7777355
+# 11272039 # alpha grass
+# 6998329 # beta forest grass
+# 8634468 # taiga color
+  }
+]

@@ -1,0 +1,92 @@
+// {
+//   "type": "minecraft:mul",
+//   "argument1": 0.25,
+//   "argument2": {
+//     "type": "minecraft:mul",
+//     "argument1": -3,
+//     "argument2": {
+//       "type": "minecraft:add",
+//       "argument1": -0.3333333333333333,
+//       "argument2": {
+//         "type": "minecraft:abs",
+//         "argument": {
+//           "type": "minecraft:add",
+//           "argument1": -0.6666666666666666,
+//           "argument2": {
+//             "type": "minecraft:abs",
+//             "argument": "minecraft:overworld/ridges"
+//           }
+//         }
+//       }
+//     }
+//   }
+// }
+
+
+// // -1/4 rf
+// {
+//   "type": "minecraft:mul",
+//   "argument1": -1,
+//   "argument2": {
+//     "type": "minecraft:half_negative",
+//     "argument": {
+//       "type": "minecraft:half_negative",
+//       "argument": {
+//         "type": "minecraft:mul",
+//         "argument1": -1,
+//         "argument2": {
+//           "type": "minecraft:flat_cache",
+//           "argument": {
+//             "type": "minecraft:mul",
+//             "argument1": -3,
+//             "argument2": {
+//               "type": "minecraft:add",
+//               "argument1": -0.3333333333333333,
+//               "argument2": {
+//                 "type": "minecraft:abs",
+//                 "argument": {
+//                   "type": "minecraft:add",
+//                   "argument1": -0.6666666666666666,
+//                   "argument2": {
+//                     "type": "minecraft:abs",
+//                     "argument": "minecraft:overworld/ridges"
+//                   }
+//                 }
+//               }
+//             }
+//           }
+//         }
+//       }
+//     }
+//   }
+// }
+
+// // +1/4 rf
+// {
+//   "type": "minecraft:half_negative",
+//   "argument": {
+//     "type": "minecraft:half_negative",
+//     "argument": {
+//       "type": "minecraft:flat_cache",
+//       "argument": {
+//         "type": "minecraft:mul",
+//         "argument1": -3,
+//         "argument2": {
+//           "type": "minecraft:add",
+//           "argument1": -0.3333333333333333,
+//           "argument2": {
+//             "type": "minecraft:abs",
+//             "argument": {
+//               "type": "minecraft:add",
+//               "argument1": -0.6666666666666666,
+//               "argument2": {
+//                 "type": "minecraft:abs",
+//                 "argument": "minecraft:overworld/ridges"
+//               }
+//             }
+//           }
+//         }
+//       }
+//     }
+//   }
+// }

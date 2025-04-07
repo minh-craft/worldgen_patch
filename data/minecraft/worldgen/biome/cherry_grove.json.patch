@@ -1,0 +1,44 @@
+[
+  {
+    "op": "add",
+    "path": "/effects/grass_color",
+    "value": 11272039
+# 11206458
+  },
+  {
+    "op": "find",
+    "path": "/features/9",
+    "test": {
+      "path": "",
+      "value": "minecraft:patch_tall_grass_2"
+    },
+    "then": {
+      "op": "remove",
+      "path": ""
+    }
+  }
+# {
+#   "op": "find",
+#   "path": "/features/9",
+#   "test": {
+#     "path": "",
+#     "value": "minecraft:flower_cherry"
+#   },
+#   "then": {
+#     "op": "remove",
+#     "path": ""
+#   }
+# },
+# {
+#   "op": "find",
+#   "path": "/features/9",
+#   "test": {
+#     "path": "",
+#     "value": "hybrid_beta:patch_grass_plain"
+#   },
+#   "then": {
+#     "op": "remove",
+#     "path": ""
+#   }
+# }
+]

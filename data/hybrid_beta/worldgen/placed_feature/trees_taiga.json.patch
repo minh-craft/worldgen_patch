@@ -1,0 +1,12 @@
+[
+  {
+    "op": "add",
+    "path": "/placement/0/count/mean",
+    "value": 4
+  },
+  {
+    "op": "add",
+    "path": "/placement/0/count/deviation",
+    "value": 3
+  }
+]
