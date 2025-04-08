@@ -1,13 +1,18 @@
 [
+# {
+#   "op": "add",
+#   "path": "/placement/0/count",
+#   "value": {
+#     "type": "minecraft:clamped_normal",
+#     "mean": 5,
+#     "deviation": 7,
+#     "min_inclusive": 1,
+#     "max_inclusive": 16
+#   }
+# },
   {
     "op": "add",
-    "path": "/placement/0/count",
-    "value": {
-      "type": "minecraft:clamped_normal",
-      "mean": 5,
-      "deviation": 7,
-      "min_inclusive": 1,
-      "max_inclusive": 16
-    }
+    "path": "/placement/0/count/mean",
+    "value": 3
   }
 ]

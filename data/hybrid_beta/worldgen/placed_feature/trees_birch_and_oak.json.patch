@@ -1,13 +1,7 @@
 [
   {
     "op": "add",
-    "path": "/placement/0/count/",
-    "value": {
-      "type": "minecraft:clamped_normal",
-      "mean": 2,
-      "deviation": 3,
-      "min_inclusive": 0,
-      "max_inclusive": 5
-    }
+    "path": "/placement/0/count/mean",
+    "value": 1
   }
 ]
