@@ -7,17 +7,17 @@
   {
     "op": "add",
     "path": "/noise_router/final_density/argument1/argument/argument2/argument1/argument/argument/argument2/argument2/argument2/argument2/argument1/to_y",
-    "value": 128
+    "value": 124
   },
   {
     "op": "replace",
     "path": "/noise_router/temperature/xz_scale",
-    "value": 0.4
+    "value": 0.32
   },
   {
     "op": "replace",
     "path": "/noise_router/vegetation/xz_scale",
-    "value": 0.35
+    "value": 0.32
   }
 # {
 #   "op": "add",
