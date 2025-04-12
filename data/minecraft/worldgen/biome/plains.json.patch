@@ -2,7 +2,7 @@
   {
     "op": "add",
     "path": "/effects/grass_color",
-    "value": 9167952
+    "value": 11272039
 # 11206500
 # 6998329 # beta forest grass color
 # 11272039 # alpha grass
@@ -11,10 +11,22 @@
   {
     "op": "add",
     "path": "/effects/foliage_color",
-    "value": 5037607
+    "value": 5242667
 # 9764649
 # 4767011 # beta forest foliage color
 # 5242667 # alpha grass
 # 5037607 alpha beta blend
+  },
+  {
+    "op": "find",
+    "path": "/features/9",
+    "test": {
+      "path": "",
+      "value": "minecraft:patch_tall_grass_2"
+    },
+    "then": {
+      "op": "remove",
+      "path": ""
+    }
   }
 ]

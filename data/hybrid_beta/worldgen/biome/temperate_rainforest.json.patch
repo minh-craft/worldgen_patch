@@ -2,10 +2,24 @@
   {
     "op": "add",
     "path": "/effects/grass_color",
-    "value": 7777355
+    "value": 8634468
 # 11272039 # alpha grass
 # 6998329 # beta forest grass
 # 8634468 # taiga color
 # 7777355 # blend beta forest and taiga color
+# 9557593 # blend previous with alpha
+# 9160048 # taiga with 145 luminosity
+  },
+  {
+    "op": "add",
+    "path": "/effects/foliage_color",
+    "value": 4494904
+  },
+# 5037607
+  {
+    "op": "add",
+    "path": "/effects/sky_color",
+    "value": 9937919
   }
+# 9937919 beta sky
 ]

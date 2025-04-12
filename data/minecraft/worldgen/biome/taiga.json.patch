@@ -2,7 +2,15 @@
   {
     "op": "add",
     "path": "/effects/grass_color",
-    "value": 7777355
+    "value": 8634468
 # 11272096
+# 7777355
+# 9557593
+  },
+  {
+    "op": "add",
+    "path": "/effects/sky_color",
+    "value": 9937919
   }
+# 9937919 beta sky
 ]
