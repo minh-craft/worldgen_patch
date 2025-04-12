@@ -1,12 +1,20 @@
 [
   {
     "op": "add",
-    "path": "/placement/0/count/mean",
+    "path": "/placement/0/count/value/mean",
     "value": 4
+# default 10
   },
   {
     "op": "add",
-    "path": "/placement/0/count/deviation",
+    "path": "/placement/0/count/value/deviation",
     "value": 3
+# default 7
+  },
+  {
+    "op": "add",
+    "path": "/placement/0/count/value/min_inclusive",
+    "value": 1
+# default 2
   }
 ]

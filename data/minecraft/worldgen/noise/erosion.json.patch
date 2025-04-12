@@ -1,3 +1,7 @@
+[
+  {
+    "op": "test",
+    "path": "/path/to/element"
 # [
 #   {
 #     "op": "add",
@@ -5,3 +9,5 @@
 #     "value": -10
 #   }
 # ]
+  }
+]

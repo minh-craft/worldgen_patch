@@ -2,16 +2,19 @@
   {
     "op": "add",
     "path": "/placement/0/above_noise",
-    "value": 2
+    "value": 3
+# default 8
   },
   {
     "op": "add",
     "path": "/placement/0/below_noise",
-    "value": 1
+    "value": 2
+# default 4
   },
   {
     "op": "add",
     "path": "/placement/0/noise_level",
     "value": 0.75
+# default -0.8
   }
 ]
