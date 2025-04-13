@@ -12,12 +12,12 @@
   {
     "op": "replace",
     "path": "/noise_router/temperature/xz_scale",
-    "value": 0.32
+    "value": 0.28
   },
   {
     "op": "replace",
     "path": "/noise_router/vegetation/xz_scale",
-    "value": 0.32
+    "value": 0.25
   }
 # {
 #   "op": "add",
