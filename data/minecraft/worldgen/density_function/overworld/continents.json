@@ -3,7 +3,7 @@
   "argument1": 0.35,
   "argument2": {
     "type": "minecraft:add",
-    "argument1": -0.55,
+    "argument1": -0.74,
     "argument2": {
       "type": "minecraft:flat_cache",
       "argument": {
