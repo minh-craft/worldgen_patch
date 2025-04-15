@@ -1,0 +1,38 @@
+[
+  {
+    "op": "replace",
+    "path": "/generator/biome_source/biomes/1085/parameters/depth",
+# 1085 is lush caves
+    "value": [
+      0.8,
+      1.1
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/generator/biome_source/biomes/1085/parameters/humidity",
+# 1085 is lush caves
+    "value": [
+      0.65,
+      1
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/generator/biome_source/biomes/1086/parameters/depth",
+# 1086 is dripstone caves
+    "value": [
+      0.8,
+      1.1
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/generator/biome_source/biomes/2172/parameters/depth",
+# 2172 is deep dark
+    "value": [
+      0.8,
+      1.1
+    ]
+  }
+]
