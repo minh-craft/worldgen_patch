@@ -2,7 +2,7 @@
   {
     "op": "add",
     "path": "/placement/0/count/value/mean",
-    "value": 4
+    "value": 3
 # default 10
   },
   {
@@ -14,7 +14,7 @@
   {
     "op": "add",
     "path": "/placement/0/count/value/min_inclusive",
-    "value": 1
+    "value": 0
 # default 2
   }
 ]
