@@ -1,0 +1,10 @@
+{
+  "op": "replace",
+  "path": "/placement/0/count/value",
+  "value": {
+    "mean": 1,
+    "deviation": 6,
+    "min_inclusive": 2,
+    "max_inclusive": 16
+  }
+}

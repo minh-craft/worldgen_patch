@@ -1,0 +1,12 @@
+[
+  {
+    "op": "replace",
+    "path": "/config/trunk_placer",
+    "value": {
+      "base_height": 6,
+      "height_rand_a": 10,
+      "height_rand_b": 5,
+      "type": "minecraft:fancy_trunk_placer"
+    }
+  }
+]
