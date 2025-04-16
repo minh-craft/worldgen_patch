@@ -1,0 +1,12 @@
+[
+  {
+    "op": "replace",
+    "path": "/config/trunk_placer/base_height",
+    "value": 7
+  },
+  {
+    "op": "replace",
+    "path": "/config/trunk_placer/height_rand_a",
+    "value": 3
+  }
+]
