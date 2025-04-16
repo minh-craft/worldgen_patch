@@ -2,6 +2,6 @@
   {
     "op": "add",
     "path": "/config/features/0/chance",
-    "value": 0.2
+    "value": 0.08
   }
 ]
