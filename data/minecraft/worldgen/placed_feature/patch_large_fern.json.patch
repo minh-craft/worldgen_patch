@@ -1,0 +1,6 @@
+{
+  "op": "replace",
+  "path": "/config/tries",
+  "value": 12
+# default 96
+}

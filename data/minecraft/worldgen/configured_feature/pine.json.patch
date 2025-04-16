@@ -1,0 +1,20 @@
+[
+  {
+    "op": "replace",
+    "path": "/config/foliage_placer/height/value",
+    "value": {
+      "max_inclusive": 5,
+      "min_inclusive": 3
+    }
+  },
+  {
+    "op": "replace",
+    "path": "/config/foliage_placer/radius",
+    "value": 2
+  },
+  {
+    "op": "replace",
+    "path": "/config/trunk_placer/base_height",
+    "value": 7
+  }
+]
