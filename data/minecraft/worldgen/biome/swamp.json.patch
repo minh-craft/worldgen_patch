@@ -20,6 +20,11 @@
     "op": "add",
     "path": "/effects/water_fog_color",
     "value": 5077600
+  },
+  {
+    "op": "add",
+    "path": "/features/6/-",
+    "value": "custom_biomes:disk_mud"
   }
 # {
 #   "op": "add",
