@@ -12,7 +12,16 @@
 # },
   {
     "op": "add",
-    "path": "/placement/0/count/mean",
-    "value": 3
+    "path": "/placement/0/count",
+    "value": {
+      "type": "minecraft:clamped_normal",
+      "value": 
+        {
+          "mean": 4,
+          "deviation": 6,
+          "min_inclusive": 2,
+          "max_inclusive": 16
+        }
+    }
   }
 ]
