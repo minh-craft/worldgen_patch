@@ -1,17 +1,27 @@
 [
   {
-    "op": "add",
-    "path": "/placement/0/above_noise",
-    "value": 4
-  },
-  {
-    "op": "add",
-    "path": "/placement/0/below_noise",
-    "value": 2
-  },
-  {
-    "op": "add",
-    "path": "/placement/0/noise_level",
-    "value": 0.6
+    "op": "replace",
+    "path": "/placement/0",
+    "value": {
+      "type": "minecraft:noise_threshold_count",
+      "above_noise": 3,
+      "below_noise": 1,
+      "noise_level": 0.6
+    }
   }
+# {
+#   "op": "add",
+#   "path": "/placement/0/above_noise",
+#   "value": 4
+# },
+# {
+#   "op": "add",
+#   "path": "/placement/0/below_noise",
+#   "value": 2
+# },
+# {
+#   "op": "add",
+#   "path": "/placement/0/noise_level",
+#   "value": 0.6
+# }
 ]

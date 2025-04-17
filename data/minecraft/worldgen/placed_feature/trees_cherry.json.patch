@@ -1,14 +1,33 @@
 [
   {
-    "op": "add",
-    "path": "/placement/0/count/distribution/0/data",
-    "value": 2
+    "op": "replace",
+    "path": "/placement/0/count/distribution",
+    "value": [
+      {
+        "data": 2,
+        "weight": 9
+      },
+      {
+        "data": 5,
+        "weight": 1
+      }
+    ]
   },
   {
-    "op": "add",
-    "path": "/placement/0/count/distribution/1/data",
-    "value": 5
+    "op": "replace",
+    "path": "/feature",
+    "value": "custom_trees:trees_cherry"
   }
+# {
+#   "op": "add",
+#   "path": "/placement/0/count/distribution/0/data",
+#   "value": 2
+# },
+# {
+#   "op": "add",
+#   "path": "/placement/0/count/distribution/1/data",
+#   "value": 5
+# }
 # {
 #   "op": "remove",
 #   "path": "/placement/0/count"
