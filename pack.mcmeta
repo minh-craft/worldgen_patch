@@ -15,6 +15,22 @@
     ]
   },
   "patched": {
-    "format_version": 1
+    "format_version": 1,
+    "patch_targets": [
+      {
+        "pack_type": "server_data",
+        "patch": "universal_biome_patch",
+        "targets": [
+          {
+            "namespace": [ "minecraft" ],
+            "path": [
+              {
+                "pattern": "worldgen/biome/.*\\.json"
+              }
+            ]
+          }
+        ]
+      }
+    ]
   }
 }

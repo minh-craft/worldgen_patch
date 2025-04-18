@@ -1,0 +1,64 @@
+[
+  {
+    "op": "find",
+    "path": "/carvers/air",
+    "test": {
+      "path": ""
+      "value": "minecraft:cave"
+    },
+    "then": {
+      "op": "remove",
+      "path": "",
+    }
+  },
+  {
+    "op": "find",
+    "path": "/carvers/air",
+    "multi": true,
+    "test": [
+      {
+        "path": ""
+        "value": "minecraft:cave_extra_underground"
+      }
+    ],
+    "then": [
+      {
+        "op": "replace",
+        "path": "",
+        "value": "moderner_beta:beta_cave_deep"
+      }
+    ]
+  }
+# {
+#   "op": "replace",
+#   "path": "/carvers/air/0",
+#   "value": "moderner_beta:beta_cave"
+# },
+# {
+#   "op": "replace",
+#   "path": "/carvers/air/1",
+#   "value": "moderner_beta:beta_cave_deep"
+# }
+#   {
+#     "op": "find",
+#     "path": "/features/6",
+#     "test": [
+#       {
+#         "path": "/features/6",
+#         "value": "minecraft:ore_dirt"
+#       }
+# # {
+# #   "path": "",
+# #   "value": "minecraft:disk_clay",
+# #   "inverse": true
+# # }
+#     ],
+#     "then": [
+#       {
+#         "op": "add",
+#         "path": "/features/6/-",
+#         "value": "minecraft:disk_clay"
+#       }
+#     ]
+#   }
+]
