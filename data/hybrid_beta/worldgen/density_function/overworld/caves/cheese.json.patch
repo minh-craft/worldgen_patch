@@ -1,0 +1,16 @@
+[
+{
+  "op": "replace",
+  "path": "/argument2/input",
+  "value": {
+    "type": "minecraft:add",
+    "argument1": 0.07,
+    "argument2": {
+      "type": "minecraft:noise",
+      "noise": "minecraft:cave_cheese",
+      "xz_scale": 1.333333,
+      "y_scale": 1
+    }
+  }
+}
+]
