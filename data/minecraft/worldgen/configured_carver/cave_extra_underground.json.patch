@@ -1,0 +1,64 @@
+[
+  {
+    "op": "replace",
+    "path": "/config/probability",
+    "value": 0.11
+  },
+  {
+    "op": "replace",
+    "path": "/config/y",
+    "value": {
+      "type": "minecraft:uniform",
+      "max_inclusive": {
+        "absolute": 47
+      },
+      "min_inclusive": {
+        "above_bottom": 0
+      }
+    }
+  },
+  {
+    "op": "replace",
+    "path": "/config/yScale",
+    "value": {
+      "type": "minecraft:uniform",
+      "value": {
+        "min_inclusive": 0.35,
+        "max_exclusive": 0.65
+      }
+    }
+  },
+  {
+    "op": "replace",
+    "path": "/config/horizontal_radius_multiplier",
+    "value": {
+      "type": "minecraft:uniform",
+      "value": {
+        "min_inclusive": 0.9,
+        "max_exclusive": 1.2
+      }
+    }
+  },
+  {
+    "op": "replace",
+    "path": "/config/vertical_radius_multiplier",
+    "value": {
+      "type": "minecraft:uniform",
+      "value": {
+        "min_inclusive": 0.9,
+        "max_exclusive": 1.2
+      }
+    }
+  },  
+  {
+    "op": "replace",
+    "path": "/config/floor_level",
+    "value": {
+      "type": "minecraft:uniform",
+      "value": {
+        "min_inclusive": -0.8,
+        "max_exclusive": -0.6
+      }
+    }
+  }
+]

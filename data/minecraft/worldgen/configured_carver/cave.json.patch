@@ -1,0 +1,41 @@
+[
+  {
+    "op": "replace",
+    "path": "/config/probability",
+    "value": 0.21
+  },
+  {
+    "op": "replace",
+    "path": "/config/y",
+    "value": {
+      "type": "minecraft:biased_to_bottom",
+      "min_inclusive": {
+        "absolute": -1
+      },
+      "max_inclusive": {
+        "absolute": 128
+      },
+      "inner": 8
+    }
+  },
+  {
+    "op": "replace",
+    "path": "/config/yScale",
+    "value": 0.5
+  },
+  {
+    "op": "replace",
+    "path": "/config/horizontal_radius_multiplier",
+    "value": 1
+  },
+  {
+    "op": "replace",
+    "path": "/config/vertical_radius_multiplier",
+    "value": 1
+  },
+  {
+    "op": "replace",
+    "path": "/config/floor_level",
+    "value": -0.7
+  }
+]
