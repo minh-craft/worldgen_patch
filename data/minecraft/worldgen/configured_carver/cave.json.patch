@@ -2,7 +2,7 @@
   {
     "op": "replace",
     "path": "/config/probability",
-    "value": 0.21
+    "value": 0.14
   },
   {
     "op": "replace",
