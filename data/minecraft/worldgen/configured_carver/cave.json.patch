@@ -2,7 +2,7 @@
   {
     "op": "replace",
     "path": "/config/probability",
-    "value": 0.14
+    "value": 0.17
   },
   {
     "op": "replace",
@@ -10,7 +10,7 @@
     "value": {
       "type": "minecraft:biased_to_bottom",
       "min_inclusive": {
-        "absolute": -1
+        "above_bottom": 0
       },
       "max_inclusive": {
         "absolute": 128

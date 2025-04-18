@@ -2,18 +2,18 @@
   {
     "op": "replace",
     "path": "/config/probability",
-    "value": 0.16
+    "value": 0.2
   },
   {
     "op": "replace",
     "path": "/config/y",
     "value": {
       "type": "minecraft:uniform",
+      "min_inclusive": {
+        "absolute": 0
+      },
       "max_inclusive": {
         "absolute": 47
-      },
-      "min_inclusive": {
-        "above_bottom": 0
       }
     }
   },
