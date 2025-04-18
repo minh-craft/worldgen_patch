@@ -1,0 +1,11 @@
+[
+  {
+    "op": "replace",
+    "path": "/setups/0/weight",
+    "value": 1
+  },
+  {
+    "op": "remove",
+    "path": "/setups/1"
+  }
+]
