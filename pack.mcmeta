@@ -22,7 +22,7 @@
         "patch": "universal_biome_patch",
         "targets": [
           {
-            "namespace": [ "minecraft" ],
+            "namespace": [ "minecraft", "hybrid_beta" ],
             "path": [
               {
                 "pattern": "worldgen/biome/.*\\.json"
