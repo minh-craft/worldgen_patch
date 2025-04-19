@@ -2,11 +2,59 @@
   {
     "op": "add",
     "path": "/effects/grass_color",
-    "value": 12513360
+    "value": 10220124
   },
   {
     "op": "add",
     "path": "/effects/foliage_color",
-    "value": 9764649
+    "value": 5242667
+  },
+  {
+    "op": "find",
+    "path": "/features/9",
+    "test": {
+      "path": "",
+      "value": "minecraft:patch_tall_grass_2"
+    },
+    "then": {
+      "op": "remove",
+      "path": ""
+    }
+  },
+  {
+    "op": "find",
+    "path": "/features/9",
+    "test": {
+      "path": "",
+      "value": "minecraft:trees_plains"
+    },
+    "then": {
+      "op": "remove",
+      "path": ""
+    }
+  },
+  {
+    "op": "find",
+    "path": "/features/9",
+    "test": {
+      "path": "",
+      "value": "minecraft:flower_plains"
+    },
+    "then": {
+      "op": "remove",
+      "path": ""
+    }
+  },
+  {
+    "op": "find",
+    "path": "/features/9",
+    "test": {
+      "path": "",
+      "value": "minecraft:patch_sunflower"
+    },
+    "then": {
+      "op": "remove",
+      "path": ""
+    }
   }
 ]

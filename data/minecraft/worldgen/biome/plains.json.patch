@@ -2,11 +2,12 @@
   {
     "op": "add",
     "path": "/effects/grass_color",
-    "value": 11272039
+    "value": 10220124
 # 11206500
 # 6998329 # beta forest grass color
 # 11272039 # alpha grass
 # 9167952 # alpha beta blend
+# 10220124 # alpha -> beta 1/4 blend
   },
   {
     "op": "add",
