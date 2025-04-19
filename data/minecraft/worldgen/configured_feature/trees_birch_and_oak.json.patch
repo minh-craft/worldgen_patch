@@ -3,6 +3,6 @@
   "path": "/config/features/-",
   "value": {
     "feature": "hybrid_beta:fancy_oak_seasonal",
-    "chance": 0.05
+    "chance": 0.1
   }
 }
