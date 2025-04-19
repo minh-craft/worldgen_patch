@@ -1,7 +1,24 @@
 [
   {
+    "op": "replace",
+    "path": "/config/features/0",
+    "value": {
+      "chance": 0.05,
+      "feature": {
+        "feature": "minecraft:fancy_oak_bees_005",
+        "placement": []
+      }
+    }
+  },
+  {
     "op": "add",
-    "path": "/config/features/0/chance",
-    "value": 0.08
+    "path": "/config/features/-",
+    "value": {
+      "chance": 0.01,
+      "feature": {
+        "feature": "hybrid_beta:fancy_oak_seasonal",
+        "placement": []
+      }
+    }
   }
 ]
