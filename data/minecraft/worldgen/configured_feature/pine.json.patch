@@ -3,7 +3,7 @@
     "op": "replace",
     "path": "/config/foliage_placer/height/value",
     "value": {
-      "max_inclusive": 5,
+      "max_inclusive": 4,
       "min_inclusive": 3
     }
   },
