@@ -1,12 +1,17 @@
 [
   {
-    "op": "add",
+    "op": "replace",
     "path": "/config/trunk_placer/base_height",
-    "value": 8
+    "value": 6
   },
   {
-    "op": "add",
+    "op": "replace",
     "path": "/config/trunk_placer/height_rand_a",
-    "value": 1
+    "value": 3
+  },
+  {
+    "op": "replace",
+    "path": "/config/trunk_placer/height_rand_b",
+    "value": 2
   }
 ]
