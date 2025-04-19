@@ -16,7 +16,7 @@
   {
     "op": "replace",
     "path": "/feature",
-    "value": "custom_trees:trees_cherry"
+    "value": "custom_biomes:trees_cherry"
   }
 # {
 #   "op": "add",

@@ -1,7 +1,7 @@
 {
   "type": "minecraft:random_selector",
   "config": {
-    "default": "custom_trees:small_jungle_tree",
+    "default": "custom_biomes:small_jungle_tree",
     "features": [
       {
         "chance": 0.51,
