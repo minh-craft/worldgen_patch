@@ -3,5 +3,10 @@
     "op": "add",
     "path": "/placement/2/max_water_depth",
     "value": 2
+  },
+  {
+    "op": "replace",
+    "path": "/feature",
+    "value": "custom_biomes:trees_swamp"
   }
 ]
