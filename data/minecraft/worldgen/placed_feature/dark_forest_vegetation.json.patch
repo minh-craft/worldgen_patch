@@ -1,0 +1,43 @@
+[
+  {
+    "op": "add",
+    "path": "/placement/0/count",
+    "value": {
+      "type": "minecraft:weighted_list",
+      "distribution": [
+        {
+          "data": 15,
+          "weight": 3
+        },
+        {
+          "data": 13,
+          "weight": 3
+        },
+        {
+          "data": 11,
+          "weight": 3
+        },
+        {
+          "data": 9,
+          "weight": 3
+        },
+        {
+          "data": 7,
+          "weight": 7
+        },
+        {
+          "data": 3,
+          "weight": 4
+        },
+        {
+          "data": 1,
+          "weight": 6
+        },
+        {
+          "data": 0,
+          "weight": 9
+        }
+      ]
+    }
+  }
+]

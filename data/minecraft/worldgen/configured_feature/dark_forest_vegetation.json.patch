@@ -1,12 +1,32 @@
 [
   {
-    "op": "add",
-    "path": "/config/features/2/chance",
-    "value": 0.7666667
+    "op": "replace",
+    "path": "/config/default",
+    "value": "custom_biomes:giant_dark_oak_checked"
   },
   {
     "op": "add",
+    "path": "/config/features/2/chance",
+    "value": 0.22
+  },
+# minecraft:dark_oak_checked, original 0.666666666
+  {
+    "op": "add",
     "path": "/config/features/3/chance",
-    "value": 0.1
+    "value": 0.05
+  },
+# minecraft:birch_checked, original 0.2
+  {
+    "op": "remove",
+    "path": "/config/features/4"
   }
+# remove minecraft:fancy_oak_checked
+# {
+#   "op": "add",
+#   "path": "/config/features/-",
+#   "value": {
+#     "chance": 0.6,
+#     "feature": "custom_biomes:giant_dark_oak_checked"
+#   }
+# }
 ]
