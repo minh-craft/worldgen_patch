@@ -11,9 +11,30 @@
   },
   {
     "op": "replace",
-    "path": "/noise_router/temperature/xz_scale",
-    "value": 0.28
+    "path": "/noise_router/temperature",
+    "value": {
+      "type": "minecraft:add",
+      "argument1": -0.02,
+      "argument2": {
+        "type": "minecraft:mul",
+        "argument1": 0.85,
+        "argument2": {
+          "type": "minecraft:shifted_noise",
+          "noise": "minecraft:temperature",
+          "shift_x": "minecraft:shift_x",
+          "shift_y": 0.0,
+          "shift_z": "minecraft:shift_z",
+          "xz_scale": 0.37,
+          "y_scale": 0.0
+        }
+      }
+    }
   },
+# {
+#   "op": "replace",
+#   "path": "/noise_router/temperature/xz_scale",
+#   "value": 0.28
+# },
   {
     "op": "replace",
     "path": "/noise_router/vegetation/xz_scale",
@@ -26,7 +47,7 @@
     "value": {
       "type": "minecraft:noise_threshold",
       "noise": "hybrid_beta:sand_beach",
-      "min_threshold": -0.4,
+      "min_threshold": -0.15,
 # default is 0.1
       "max_threshold": 1.7976931348623157E308
     }
