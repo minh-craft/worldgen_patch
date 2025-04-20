@@ -3,7 +3,7 @@
   "argument1": 0.28,
   "argument2": {
     "type": "minecraft:add",
-    "argument1": -0.66,
+    "argument1": -0.6,
     "argument2": {
       "type": "minecraft:flat_cache",
       "argument": {
@@ -12,7 +12,7 @@
         "shift_x": "minecraft:shift_x",
         "shift_y": 0,
         "shift_z": "minecraft:shift_z",
-        "xz_scale": 0.66,
+        "xz_scale": 0.6,
         "y_scale": 0
       }
     }
