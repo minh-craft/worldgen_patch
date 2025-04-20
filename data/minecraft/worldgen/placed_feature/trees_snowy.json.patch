@@ -1,0 +1,24 @@
+[
+  {
+    "op": "replace",
+    "path": "/placement/0/count",
+    "value": {
+      "type": "minecraft:weighted_list",
+      "distribution": [
+        {
+          "data": 0,
+          "weight": 9
+        },
+        {
+          "data": 1,
+          "weight": 2
+        }
+      ]
+    }
+  },
+  {
+    "op": "replace",
+    "path": "/feature",
+    "value": "minecraft:trees_windswept_hills"
+  }
+]
