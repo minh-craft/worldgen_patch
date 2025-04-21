@@ -25,6 +25,11 @@
     "op": "add",
     "path": "/features/6/-",
     "value": "custom_biomes:disk_mud"
+  },
+  {
+    "op": "add",
+    "path": "/features/9/1",
+    "value": "minecraft:bamboo_light"
   }
 # {
 #   "op": "add",

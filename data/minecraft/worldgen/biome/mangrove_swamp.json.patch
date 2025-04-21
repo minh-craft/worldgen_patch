@@ -1,0 +1,13 @@
+[
+  {
+    "op": "add",
+    "path": "/effects/grass_color",
+    "value": 7773984
+# 12513360
+  },
+  {
+    "op": "add",
+    "path": "/features/9/1",
+    "value": "minecraft:bamboo_light"
+  }
+]
