@@ -1,12 +1,12 @@
 {
   "type": "minecraft:mul",
-  "argument1": 0.88,
+  "argument1": 0.68,
   "argument2": {
     "type": "minecraft:add",
-    "argument1": 0.3,
+    "argument1": 0.24,
     "argument2": {
       "type": "minecraft:mul",
-      "argument1": 1.05,
+      "argument1": 1.3,
       "argument2": {
         "type": "minecraft:flat_cache",
         "argument": {
