@@ -47,7 +47,7 @@
     "value": {
       "type": "minecraft:noise_threshold",
       "noise": "hybrid_beta:sand_beach",
-      "min_threshold": -0.15,
+      "min_threshold": -0.3,
 # default is 0.1
       "max_threshold": 1.7976931348623157E308
     }
@@ -101,8 +101,8 @@
                         "type": "minecraft:mul",
                         "argument1": {
                           "type": "minecraft:y_clamped_gradient",
-                          "from_y": 80,
-                          "to_y": 126,
+                          "from_y": 116,
+                          "to_y": 128,
                           "from_value": 1,
                           "to_value": 0
                         },
