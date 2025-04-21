@@ -22,5 +22,10 @@
       "op": "remove",
       "path": ""
     }
+  },
+  {
+    "op": "add",
+    "path": "/effects/foliage_color",
+    "value": 5565750
   }
 ]

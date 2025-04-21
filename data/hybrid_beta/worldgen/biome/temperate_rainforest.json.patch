@@ -13,13 +13,49 @@
   {
     "op": "add",
     "path": "/effects/foliage_color",
-    "value": 4494904
+    "value": 6478658
   },
 # 5037607
+# 4494904
+# 5565750 # snowy plains color
   {
     "op": "add",
     "path": "/effects/sky_color",
     "value": 9937919
-  }
+  },
 # 9937919 beta sky
+  {
+    "op": "add",
+    "path": "/features/6/-",
+    "value": "minecraft:disk_gravel"
+  },
+  {
+    "op": "find",
+    "path": "/features/9",
+    "test": {
+      "path": "",
+      "value": "hybrid_beta:patch_grass_temperate_rainforest"
+    },
+    "then": {
+      "op": "remove",
+      "path": ""
+    }
+  },
+  {
+    "op": "add",
+    "path": "/features/9/4",
+    "value": "minecraft:patch_grass_taiga_2"
+  },
+  {
+    "op": "find",
+    "path": "/features/9",
+    "test": {
+      "path": "",
+      "value": "minecraft:patch_large_fern"
+    },
+    "then": {
+      "op": "remove",
+      "path": ""
+    }
+  }
 ]
