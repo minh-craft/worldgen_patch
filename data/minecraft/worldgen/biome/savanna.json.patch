@@ -2,7 +2,7 @@
   {
     "op": "add",
     "path": "/effects/grass_color",
-    "value": 15312449
+    "value": 14853951
 # 15920218 # starred
 # 16776038
 # 15920729
@@ -20,6 +20,8 @@
 # 15181110
 # 15313473
 # 15312449 # star
+# 14725958 # latest
+# 14853951 # blend between latest and lighter
   },
   {
     "op": "add",
