@@ -1,0 +1,10 @@
+[
+  {
+    "op": "replace",
+    "path": "/placement/0",
+    "value": {
+      "type": "minecraft:count",
+      "count": 1
+    }
+  }
+]
