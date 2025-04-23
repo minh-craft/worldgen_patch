@@ -8,5 +8,17 @@
     "op": "add",
     "path": "/effects/foliage_color",
     "value": 13235480
+  },
+  {
+    "op": "find",
+    "path": "/features/4",
+    "test": {
+      "path": "",
+      "value": "minecraft:desert_well"
+    },
+    "then": {
+      "op": "remove",
+      "path": ""
+    }
   }
 ]
