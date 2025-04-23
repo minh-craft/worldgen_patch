@@ -14,17 +14,17 @@
     "path": "/noise_router/temperature",
     "value": {
       "type": "minecraft:add",
-      "argument1": -0.02,
+      "argument1": 0,
       "argument2": {
         "type": "minecraft:mul",
-        "argument1": 0.85,
+        "argument1": 0.93,
         "argument2": {
           "type": "minecraft:shifted_noise",
           "noise": "minecraft:temperature",
           "shift_x": "minecraft:shift_x",
           "shift_y": 0.0,
           "shift_z": "minecraft:shift_z",
-          "xz_scale": 0.37,
+          "xz_scale": 0.33,
           "y_scale": 0.0
         }
       }
@@ -38,7 +38,7 @@
   {
     "op": "replace",
     "path": "/noise_router/vegetation/xz_scale",
-    "value": 0.35
+    "value": 0.32
   },
 # sandy beach threshold
   {
