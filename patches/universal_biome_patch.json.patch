@@ -37,5 +37,125 @@
       "path": "",
       "value": "moderner_beta:beta_canyon"
     }
+  },
+  {
+    "op": "find",
+    "path": "/features/2",
+    "test": {
+      "path": "",
+      "value": "minecraft:amethyst_geode"
+    },
+    "then": {
+      "op": "remove",
+      "path": ""
+    }
+  },
+  {
+    "op": "find",
+    "path": "/features/6",
+    "test": {
+      "path": "",
+      "value": "minecraft:ore_granite_upper"
+    },
+    "then": {
+      "op": "remove",
+      "path": ""
+    }
+  },
+  {
+    "op": "find",
+    "path": "/features/6",
+    "test": {
+      "path": "",
+      "value": "minecraft:ore_granite_lower"
+    },
+    "then": {
+      "op": "remove",
+      "path": ""
+    }
+  },
+  {
+    "op": "find",
+    "path": "/features/6",
+    "test": {
+      "path": "",
+      "value": "minecraft:ore_diorite_upper"
+    },
+    "then": {
+      "op": "remove",
+      "path": ""
+    }
+  },
+  {
+    "op": "find",
+    "path": "/features/6",
+    "test": {
+      "path": "",
+      "value": "minecraft:ore_diorite_lower"
+    },
+    "then": {
+      "op": "remove",
+      "path": ""
+    }
+  },
+  {
+    "op": "find",
+    "path": "/features/6",
+    "test": {
+      "path": "",
+      "value": "minecraft:ore_andesite_upper"
+    },
+    "then": {
+      "op": "remove",
+      "path": ""
+    }
+  },
+  {
+    "op": "find",
+    "path": "/features/6",
+    "test": {
+      "path": "",
+      "value": "minecraft:ore_andesite_lower"
+    },
+    "then": {
+      "op": "remove",
+      "path": ""
+    }
+  },
+  {
+    "op": "find",
+    "path": "/features/6",
+    "test": {
+      "path": "",
+      "value": "minecraft:ore_tuff"
+    },
+    "then": {
+      "op": "remove",
+      "path": ""
+    }
+  },
+  {
+    "op": "find",
+    "path": "/features/6",
+    "test": {
+      "path": "",
+      "value": "minecraft:ore_copper"
+    },
+    "then": {
+      "op": "remove",
+      "path": ""
+    }
+  },
+  {
+    "op": "find",
+    "path": "/features/6",
+    "test": {
+      "path": "",
+      "value": "minecraft:underwater_magma"
+    },
+    "then": {
+      "op": "remove",
+      "path": ""
+    }
   }
 ]
