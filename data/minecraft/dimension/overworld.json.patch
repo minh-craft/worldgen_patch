@@ -27,12 +27,8 @@
     ]
   },
   {
-    "op": "replace",
-    "path": "/generator/biome_source/biomes/2172/parameters/depth",
+    "op": "remove",
+    "path": "/generator/biome_source/biomes/2172"
 # 2172 is deep dark
-    "value": [
-      0.8,
-      1.1
-    ]
   }
 ]
