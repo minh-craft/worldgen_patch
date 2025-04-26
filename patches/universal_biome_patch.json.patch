@@ -157,5 +157,17 @@
       "op": "remove",
       "path": ""
     }
+  },
+  {
+    "op": "find",
+    "path": "/features/7",
+    "test": {
+      "path": "",
+      "value": "minecraft:minecraft:ore_infested"
+    },
+    "then": {
+      "op": "remove",
+      "path": ""
+    }
   }
 ]
