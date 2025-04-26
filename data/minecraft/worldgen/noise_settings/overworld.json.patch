@@ -1,15 +1,5 @@
 [
   {
-    "op": "add",
-    "path": "/noise_router/final_density/argument1/argument/argument2/argument1/argument/argument/argument2/argument2/argument2/argument2/argument1/from_y",
-    "value": 112
-  },
-  {
-    "op": "add",
-    "path": "/noise_router/final_density/argument1/argument/argument2/argument1/argument/argument/argument2/argument2/argument2/argument2/argument1/to_y",
-    "value": 128
-  },
-  {
     "op": "replace",
     "path": "/noise_router/temperature",
     "value": {
@@ -39,6 +29,34 @@
     "op": "replace",
     "path": "/noise_router/vegetation/xz_scale",
     "value": 0.32
+  },
+# remove just copper ore vein (game generates iron vein if vein_toggle is < 0)
+  {
+    "op": "replace",
+    "path": "/noise_router/vein_toggle",
+    "value": {
+      "type": "minecraft:interpolated",
+      "argument": {
+        "type": "minecraft:range_choice",
+        "input": "minecraft:y",
+        "max_exclusive": 51,
+        "min_inclusive": -60,
+        "when_in_range": {
+          "type": "minecraft:mul",
+          "argument1": -1,
+          "argument2": {
+            "type": "minecraft:abs",
+            "argument": {
+              "type": "minecraft:noise",
+              "noise": "minecraft:ore_veininess",
+              "xz_scale": 1.5,
+              "y_scale": 1.5
+            }
+          }
+        },
+        "when_out_of_range": 0
+      }
+    }
   },
 # sandy beach threshold
   {
