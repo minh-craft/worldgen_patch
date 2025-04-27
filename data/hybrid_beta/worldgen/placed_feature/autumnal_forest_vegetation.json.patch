@@ -1,12 +1,24 @@
 [
   {
-    "op": "add",
-    "path": "/placement/0/count/distribution/0/data",
-    "value": 3
-  },
-  {
-    "op": "add",
-    "path": "/placement/0/count/distribution/0/data",
-    "value": 5
+    "op": "replace",
+    "path": "/placement/0/count/distribution",
+    "value": [
+      {
+        "data": 0,
+        "weight": 3
+      },
+      {
+        "data": 1,
+        "weight": 7
+      },
+      {
+        "data": 3,
+        "weight": 9
+      },
+      {
+        "data": 5,
+        "weight": 3
+      }
+    ]
   }
 ]

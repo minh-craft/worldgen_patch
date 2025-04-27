@@ -2,7 +2,7 @@
   {
     "op": "add",
     "path": "/effects/grass_color",
-    "value": 15920218
+    "value": 8634468
   },
 # grass colors
 # 16051266
@@ -16,11 +16,17 @@
 # 16448103
 # 16776038 # starred
 # 15920218 # savanna
+# 8634468 # taiga
+# 12053855 # alpha savanna blend
   {
     "op": "add",
     "path": "/effects/foliage_color",
-    "value": 16019535
+    "value": 16777028
   }
+# 16019535 # dark red
+# 16310859 # yellow
+# 16771140 # sat yellow
+# 16777028 # sat yellow yellow
 # {
 #   "op": "find",
 #   "path": "/features/9",

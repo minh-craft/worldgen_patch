@@ -1,0 +1,27 @@
+[
+  {
+    "op": "replace",
+    "path": "/config/features",
+    "value": [
+      {
+        "chance": 0.075,
+        "feature": {
+          "feature": "minecraft:huge_brown_mushroom",
+          "placement": []
+        }
+      },
+      {
+        "chance": 0.15,
+        "feature": "minecraft:birch_checked"
+      },
+      {
+        "chance": 0.15,
+        "feature": "minecraft:fancy_oak_checked"
+      },
+      {
+        "chance": 0.1,
+        "feature": "hybrid_beta:fancy_oak_seasonal"
+      }
+    ]
+  }
+]
