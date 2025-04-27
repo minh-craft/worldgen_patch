@@ -175,7 +175,7 @@
     "path": "/features/7",
     "test": {
       "path": "",
-      "value": "minecraft:minecraft:ore_infested"
+      "value": "minecraft:ore_infested"
     },
     "then": {
       "op": "remove",

@@ -30,33 +30,11 @@
     "path": "/noise_router/vegetation/xz_scale",
     "value": 0.32
   },
-# remove just copper ore vein (game generates iron vein if vein_toggle is < 0)
+# disable ore veins
   {
     "op": "replace",
-    "path": "/noise_router/vein_toggle",
-    "value": {
-      "type": "minecraft:interpolated",
-      "argument": {
-        "type": "minecraft:range_choice",
-        "input": "minecraft:y",
-        "max_exclusive": 51,
-        "min_inclusive": -60,
-        "when_in_range": {
-          "type": "minecraft:mul",
-          "argument1": -1,
-          "argument2": {
-            "type": "minecraft:abs",
-            "argument": {
-              "type": "minecraft:noise",
-              "noise": "minecraft:ore_veininess",
-              "xz_scale": 1.5,
-              "y_scale": 1.5
-            }
-          }
-        },
-        "when_out_of_range": 0
-      }
-    }
+    "path": "/ore_veins_enabled",
+    "value": false
   },
 # sandy beach threshold
   {
