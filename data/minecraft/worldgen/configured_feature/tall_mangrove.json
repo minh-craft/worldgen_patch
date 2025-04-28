@@ -19,7 +19,7 @@
     "trunk_provider": {
       "type": "minecraft:simple_state_provider",
       "state": {
-        "Name": "minecraft:mangrove_log",
+        "Name": "minecraft:jungle_log",
         "Properties": {
           "axis": "y"
         }
@@ -50,8 +50,8 @@
       "trunk_offset_y": {
         "type": "minecraft:uniform",
         "value": {
-          "min_inclusive": 1,
-          "max_inclusive": 5
+          "min_inclusive": 0,
+          "max_inclusive": 2
         }
       },
       "above_root_placement": {
@@ -61,11 +61,11 @@
             "Name": "minecraft:moss_carpet"
           }
         },
-        "above_root_placement_chance": 0.5
+        "above_root_placement_chance": 0
       },
       "mangrove_root_placement": {
-        "max_root_width": 12,
-        "max_root_length": 15,
+        "max_root_width": 9,
+        "max_root_length": 12,
         "random_skew_chance": 0.2,
         "can_grow_through": "#minecraft:mangrove_roots_can_grow_through",
         "muddy_roots_in": [
@@ -84,9 +84,9 @@
       }
     },
     "trunk_placer": {
-      "type": "minecraft:fancy_trunk_placer",
-      "base_height": 15,
-      "height_rand_a": 1,
+      "type": "minecraft:straight_trunk_placer",
+      "base_height": 3,
+      "height_rand_a": 3,
       "height_rand_b": 1
     },
     "foliage_placer": {
@@ -101,7 +101,7 @@
       },
       {
         "type": "minecraft:attached_to_leaves",
-        "probability": 0.14,
+        "probability": 0.10,
         "exclusion_radius_xz": 1,
         "exclusion_radius_y": 0,
         "required_empty_blocks": 2,
@@ -131,10 +131,6 @@
         "directions": [
           "down"
         ]
-      },
-      {
-        "type": "minecraft:beehive",
-        "probability": 0.01
       }
     ]
   }

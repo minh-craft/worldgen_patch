@@ -2,7 +2,41 @@
   {
     "op": "add",
     "path": "/effects/grass_color",
-    "value": 7773984
+    "value": 4092727
 # 12513360
-  }
+# 7773984
+# 6975545
+  },
+  {
+    "op": "remove",
+    "path": "/effects/grass_color_modifier"
+  },
+#   {
+#     "op": "replace",
+#     "path": "/effects/water_color",
+#     "value": 3832426
+# # 4159204
+#   },
+#   {
+#     "op": "replace",
+#     "path": "/effects/water_fog_color",
+#     "value": 5077600
+# # 329011
+#   },
+#   {
+#     "op": "add",
+#     "path": "/effects/grass_color",
+#     "value": 3847274
+# # 12513360
+# # 3832426
+# # 3847274
+#   },
+#   {
+#     "op": "add",
+#     "path": "/effects/foliage_color",
+#     "value": 7133440
+# # 9285927
+# # 2586684
+# # 5157159
+#   }
 ]
