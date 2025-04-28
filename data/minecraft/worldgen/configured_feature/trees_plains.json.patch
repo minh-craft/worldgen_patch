@@ -14,7 +14,7 @@
     "op": "add",
     "path": "/config/features/-",
     "value": {
-      "chance": 0.01,
+      "chance": 0.02,
       "feature": {
         "feature": "hybrid_beta:fancy_oak_seasonal",
         "placement": []
