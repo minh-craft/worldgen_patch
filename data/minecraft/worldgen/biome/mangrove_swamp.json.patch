@@ -10,7 +10,7 @@
   {
     "op": "remove",
     "path": "/effects/grass_color_modifier"
-  },
+  }
 #   {
 #     "op": "replace",
 #     "path": "/effects/water_color",
