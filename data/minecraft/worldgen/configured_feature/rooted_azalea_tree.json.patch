@@ -1,0 +1,12 @@
+[
+  {
+    "op": "replace",
+    "path": "/config/hanging_root_state_provider/state/Name",
+    "value": "minecraft:air"
+  },
+  {
+    "op": "replace",
+    "path": "/config/root_state_provider/state/Name",
+    "value": "minecraft:coarse_dirt"
+  }
+]

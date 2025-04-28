@@ -1,0 +1,7 @@
+[
+  {
+    "op": "replace",
+    "path": "/config/dirt_provider/state/Name",
+    "value": "minecraft:coarse_dirt"
+  }
+]
