@@ -7,7 +7,7 @@
   {
     "op": "add",
     "path": "/config/features/2/chance",
-    "value": 0.22
+    "value": 0.7
   },
 # minecraft:dark_oak_checked, original 0.666666666
   {
