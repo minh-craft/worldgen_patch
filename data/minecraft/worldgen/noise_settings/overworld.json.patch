@@ -60,6 +60,12 @@
 # default is -0.4
     }
   },
+# replace coarse dirt with podzol in old growth forests
+  {
+    "op": "replace",
+    "path": "/surface_rule/sequence/1/then_run/sequence/6/then_run/then_run/sequence/1/sequence/7/then_run/sequence/0/then_run/result_state/Name",
+    "value": "minecraft:podzol"
+  },
 # noise caves only below y=0
   {
     "op": "replace",
