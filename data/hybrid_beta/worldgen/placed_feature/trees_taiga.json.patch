@@ -21,8 +21,8 @@
     "op": "replace",
     "path": "/placement/0/count/value",
     "value": {
-      "mean": 1,
-      "deviation": 5,
+      "mean": 3,
+      "deviation": 7,
       "min_inclusive": 1,
       "max_inclusive": 16
     }
