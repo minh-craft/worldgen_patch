@@ -151,6 +151,18 @@
     "path": "/features/6",
     "test": {
       "path": "",
+      "value": "minecraft:ore_copper_large"
+    },
+    "then": {
+      "op": "remove",
+      "path": ""
+    }
+  },
+  {
+    "op": "find",
+    "path": "/features/6",
+    "test": {
+      "path": "",
       "value": "minecraft:ore_emerald"
     },
     "then": {
