@@ -21,9 +21,9 @@
     "op": "add",
     "path": "/placement/0/count/value",
     "value": {
-      "mean": 1,
+      "mean": 3,
       "deviation": 7,
-      "min_inclusive": 2,
+      "min_inclusive": 1,
       "max_inclusive": 16
     }
   }
