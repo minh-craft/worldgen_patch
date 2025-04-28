@@ -1,0 +1,12 @@
+[
+  {
+    "op": "replace",
+    "path": "/placement/0/count",
+    "value": 1
+  },
+  {
+    "op": "replace",
+    "path": "/placement/1/chance",
+    "value": 16
+  }
+]
