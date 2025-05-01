@@ -2,12 +2,12 @@
   {
     "op": "add",
     "path": "/effects/grass_color",
-    "value": 9167952
+    "value": 11272039
   },
   {
     "op": "add",
     "path": "/effects/foliage_color",
-    "value": 5037607
+    "value": 5242667
   },
   {
     "op": "include",
