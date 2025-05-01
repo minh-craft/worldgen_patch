@@ -34,6 +34,10 @@
 # 16639554
 # 16634434
 # 13235480 # starred
+  },
+  {
+    "op": "include",
+    "path": "add_clay_disk"
   }
 # {
 #   "op": "find",

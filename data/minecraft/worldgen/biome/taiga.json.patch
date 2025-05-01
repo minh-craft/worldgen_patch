@@ -35,5 +35,9 @@
       "op": "remove",
       "path": ""
     }
+  },
+  {
+    "op": "include",
+    "path": "add_clay_disk"
   }
 ]

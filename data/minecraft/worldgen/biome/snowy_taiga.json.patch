@@ -27,5 +27,9 @@
     "op": "add",
     "path": "/effects/foliage_color",
     "value": 5565750
+  },
+  {
+    "op": "include",
+    "path": "add_clay_disk"
   }
 ]
