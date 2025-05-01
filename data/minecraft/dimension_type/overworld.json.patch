@@ -1,0 +1,47 @@
+[
+  {
+    "op": "replace",
+    "path": "/monster_spawn_light_level",
+    "value": {
+      "type": "minecraft:weighted_list",
+      "value": {
+        "max_inclusive": 7,
+        "min_inclusive": 0
+      },
+      "distribution": [
+        {
+          "weight": 1,
+          "data": 0
+        },
+        {
+          "weight": 1,
+          "data": 1
+        },
+        {
+          "weight": 1,
+          "data": 2
+        },
+        {
+          "weight": 2,
+          "data": 3
+        },
+        {
+          "weight": 2,
+          "data": 4
+        },
+        {
+          "weight": 2,
+          "data": 5
+        },
+        {
+          "weight": 2,
+          "data": 6
+        },
+        {
+          "weight": 1,
+          "data": 7
+        }
+      ]
+    }
+  }
+]
