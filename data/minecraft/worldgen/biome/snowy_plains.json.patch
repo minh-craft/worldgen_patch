@@ -1,5 +1,11 @@
 [
   {
+    "op": "add",
+    "path": "/effects/foliage_color",
+    "value": 5565750
+  },
+# 6478658
+  {
     "op": "find",
     "path": "/features/9",
     "test": {
@@ -24,11 +30,22 @@
     }
   },
   {
-    "op": "add",
-    "path": "/effects/foliage_color",
-    "value": 5565750
+    "op": "find",
+    "path": "/features/9",
+    "test": {
+      "path": "",
+      "value": "minecraft:trees_snowy"
+    },
+    "then": {
+      "op": "remove",
+      "path": ""
+    }
   },
-# 6478658
+  {
+    "op": "add",
+    "path": "/features/9/1",
+    "value": "custom_biomes:trees_snowy_oak"
+  },
   {
     "op": "include",
     "path": "add_clay_disk"

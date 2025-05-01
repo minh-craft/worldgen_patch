@@ -1,5 +1,10 @@
 [
   {
+    "op": "add",
+    "path": "/effects/foliage_color",
+    "value": 5565750
+  },
+  {
     "op": "find",
     "path": "/features/9",
     "test": {
