@@ -1,5 +1,17 @@
 [
   {
+    "op": "add",
+    "path": "/effects/grass_color",
+    "value": 6800734
+# 8634468 # default?
+# 5880165 # fantasy cool green
+  },
+  {
+    "op": "add",
+    "path": "/effects/foliage_color",
+    "value": 5565750
+  },
+  {
     "op": "find",
     "path": "/features/9",
     "test": {

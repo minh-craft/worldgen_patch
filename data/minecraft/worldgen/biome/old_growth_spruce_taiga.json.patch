@@ -1,5 +1,12 @@
 [
   {
+    "op": "add",
+    "path": "/effects/grass_color",
+    "value": 6800734
+# 8634468 # default?
+# 5880165 # fantasy cool green
+  },
+  {
     "op": "include",
     "path": "add_clay_disk"
   },
