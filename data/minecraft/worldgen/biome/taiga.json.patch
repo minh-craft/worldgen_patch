@@ -52,5 +52,10 @@
   {
     "op": "include",
     "path": "add_lake_water"
+  },
+  {
+    "op": "add",
+    "path": "/features/9/-",
+    "value": "custom_biomes:trees_taiga_noise"
   }
 ]
