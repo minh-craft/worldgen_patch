@@ -40,6 +40,10 @@
     "path": "add_clay_disk"
   },
   {
+    "op": "include",
+    "path": "add_lake_water"
+  },
+  {
     "op": "find",
     "path": "/features/9",
     "test": {
