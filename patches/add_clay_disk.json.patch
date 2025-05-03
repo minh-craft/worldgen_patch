@@ -1,5 +1,5 @@
 {
   "op": "add",
   "path": "/features/6/-",
-  "value": "minecraft:disk_clay"
+  "value": "custom_biomes:ore_clay"
 }
