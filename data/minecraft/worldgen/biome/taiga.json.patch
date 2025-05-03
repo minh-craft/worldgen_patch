@@ -31,7 +31,7 @@
   {
     "op": "add",
     "path": "/features/6/-",
-    "value": "minecraft:disk_gravel"
+    "value": "custom_biomes:disk_gravel_large"
   },
   {
     "op": "find",
