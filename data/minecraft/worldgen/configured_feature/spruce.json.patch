@@ -6,6 +6,17 @@
       "max_inclusive": 4,
       "min_inclusive": 1
     }
+  },  
+  {
+    "op": "replace",
+    "path": "/config/foliage_placer/radius",
+    "value": {
+      "type": "minecraft:uniform",
+      "value": {
+        "min_inclusive": 2,
+        "max_inclusive": 4
+      }
+    }
   },
   {
     "op": "replace",
