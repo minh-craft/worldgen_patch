@@ -29,6 +29,18 @@
     }
   },
   {
+    "op": "find",
+    "path": "/features/1",
+    "test": {
+      "path": "",
+      "value": "minecraft:lake_lava_surface"
+    },
+    "then": {
+      "op": "remove",
+      "path": ""
+    }
+  },
+  {
     "op": "include",
     "path": "add_clay_disk"
   },

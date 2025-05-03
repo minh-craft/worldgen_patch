@@ -23,6 +23,16 @@
     "value": 5242667
   },
   {
+    "op": "add",
+    "path": "/effects/water_color",
+    "value": 4159204
+  },
+  {
+    "op": "add",
+    "path": "/effects/water_fog_color",
+    "value": 329011
+  },
+  {
     "op": "include",
     "path": "add_clay_disk"
   },
