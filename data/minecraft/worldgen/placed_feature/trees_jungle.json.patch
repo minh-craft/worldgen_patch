@@ -1,0 +1,22 @@
+[
+  {
+    "op": "replace",
+    "path": "/placement/0",
+    "value": {
+      "type": "minecraft:count",
+      "count": {
+        "type": "minecraft:weighted_list",
+        "distribution": [
+          {
+            "data": 50,
+            "weight": 7
+          },
+          {
+            "data": 4,
+            "weight": 1
+          }
+        ]
+      }
+    }
+  }
+]
