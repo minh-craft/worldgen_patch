@@ -2,7 +2,7 @@
   {
     "op": "add",
     "path": "/effects/grass_color",
-    "value": 14853951
+    "value": 14981944
 # 15920218 # starred
 # 16776038
 # 15920729
@@ -38,6 +38,23 @@
   {
     "op": "include",
     "path": "add_clay_disk"
+  },
+  {
+    "op": "find",
+    "path": "/features/9",
+    "test": {
+      "path": "",
+      "value": "minecraft:patch_tall_grass"
+    },
+    "then": {
+      "op": "remove",
+      "path": ""
+    }
+  },
+  {
+    "op": "add",
+    "path": "/features/9/-",
+    "value": "custom_biomes:acacia_bush"
   }
 # {
 #   "op": "find",
@@ -51,16 +68,4 @@
 #     "path": ""
 #   }
 # },
-# {
-#   "op": "find",
-#   "path": "/features/9",
-#   "test": {
-#     "path": "",
-#     "value": "minecraft:patch_tall_grass"
-#   },
-#   "then": {
-#     "op": "remove",
-#     "path": ""
-#   }
-# }
 ]
