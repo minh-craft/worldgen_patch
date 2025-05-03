@@ -3,10 +3,20 @@
     "op": "replace",
     "path": "/placement/0",
     "value": {
-      "type": "minecraft:noise_threshold_count",
-      "above_noise": 3,
-      "below_noise": 1,
-      "noise_level": 0.6
+      "type": "minecraft:count",
+      "count": {
+        "type": "minecraft:weighted_list",
+        "distribution": [
+          {
+            "weight": 1,
+            "data": 0
+          },
+          {
+            "weight": 2,
+            "data": 1
+          }
+        ]
+      }
     }
   }
 # {
