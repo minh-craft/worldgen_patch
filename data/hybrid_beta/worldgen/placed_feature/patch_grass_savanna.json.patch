@@ -1,7 +1,12 @@
 [
   {
-    "op": "add",
-    "path": "/placement/0/count",
-    "value": 2
+    "op": "replace",
+    "path": "/placement/0",
+    "value": {
+      "type": "minecraft:noise_threshold_count",
+      "above_noise": 8,
+      "below_noise": 2,
+      "noise_level": 0.5
+    }
   }
 ]

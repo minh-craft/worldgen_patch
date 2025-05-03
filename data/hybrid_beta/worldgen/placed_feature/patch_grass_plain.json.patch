@@ -1,11 +1,41 @@
 [
+# {
+#   "op": "replace",
+#   "path": "/placement/0",
+#   "value": {
+#     "type": "minecraft:count",
+#     "count": {
+#       "type": "minecraft:weighted_list",
+#       "distribution": [
+#         {
+#           "weight": 1,
+#           "data": 0
+#         },
+#         {
+#           "weight": 2,
+#           "data": 1
+#         },
+#         {
+#           "weight": 1,
+#           "data": 2
+#         },
+#         {
+#           "weight": 1,
+#           "data": 4
+#         }
+#       ]
+#     }
+#   }
+# }
+# # default is 8, 4, -0.8
   {
     "op": "replace",
     "path": "/placement/0",
     "value": {
-      "type": "minecraft:count",
-      "count": 1
+      "type": "minecraft:noise_threshold_count",
+      "above_noise": 8,
+      "below_noise": 2,
+      "noise_level": 0.5
     }
   }
-# default is 8, 4, -0.8
 ]
