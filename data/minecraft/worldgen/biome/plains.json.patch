@@ -9,6 +9,7 @@
 # 9167952 # alpha beta blend
 # 10220124 # alpha -> beta 1/4 blend
 # 12053855 # alpha -> savanna 1/5 blend
+# 12644941 # bta test
   },
   {
     "op": "add",
@@ -34,5 +35,9 @@
   {
     "op": "include",
     "path": "add_clay_disk"
+  },
+  {
+    "op": "include",
+    "path": "add_lake_water"
   }
 ]

@@ -1,0 +1,7 @@
+[
+  {
+    "op": "add",
+    "path": "/features/1/-",
+    "value": "custom_biomes:lake_water_surface"
+  }
+]
