@@ -22,7 +22,7 @@
     "path": "/generator/biome_source/biomes/1085/parameters/temperature",
 # 1085 is lush caves
     "value": [
-      0.5,
+      0.45,
       1
     ]
   },
