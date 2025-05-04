@@ -1,0 +1,41 @@
+[
+  {
+    "op": "add",
+    "path": "/effects/grass_color",
+    "value": 11272039
+# 11272039 # alpha grass
+  },
+  {
+    "op": "add",
+    "path": "/effects/foliage_color",
+    "value": 5242667
+# 5242667 # alpha foliage
+  },
+  {
+    "op": "find",
+    "path": "/features/9",
+    "test": {
+      "path": "",
+      "value": "minecraft:glow_lichen"
+    },
+    "then": {
+      "op": "remove",
+      "path": ""
+    }
+  },
+  {
+    "op": "add",
+    "path": "/features/9/0",
+    "value": "custom_biomes:glow_lichen_dense"
+  },
+  {
+    "op": "add",
+    "path": "/features/6/-",
+    "value": "custom_biomes:mossy_cobblestone_ore"
+  },
+  {
+    "op": "add",
+    "path": "/features/9/-",
+    "value": "custom_biomes:underground_lush_trees"
+  }
+]
