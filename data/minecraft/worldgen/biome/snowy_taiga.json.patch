@@ -60,5 +60,46 @@
     "op": "add",
     "path": "/features/9/-",
     "value": "custom_biomes:trees_snowy_mega_taiga"
+  },
+  {
+    "op": "find",
+    "path": "/features/9",
+    "test": {
+      "path": "",
+      "value": "minecraft:patch_berry_rare"
+    },
+    "then": {
+      "op": "remove",
+      "path": ""
+    }
+  },
+  {
+    "op": "add",
+    "path": "/features/9/-",
+    "value": "minecraft:patch_berry_common"
+  },
+  {
+    "op": "find",
+    "path": "/features/9",
+    "test": {
+      "path": "",
+      "value": "minecraft:brown_mushroom_taiga"
+    },
+    "then": {
+      "op": "remove",
+      "path": ""
+    }
+  },
+  {
+    "op": "find",
+    "path": "/features/9",
+    "test": {
+      "path": "",
+      "value": "minecraft:red_mushroom_taiga"
+    },
+    "then": {
+      "op": "remove",
+      "path": ""
+    }
   }
 ]
