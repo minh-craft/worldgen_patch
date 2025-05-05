@@ -2,16 +2,22 @@
   {
     "op": "add",
     "path": "/effects/grass_color",
-    "value": 6998329
+    "value": 5274162
 # 12513360
 # 7773984
 # 6975545
 # 4092727 # star
+# 6998329
   },
   {
-    "op": "remove",
-    "path": "/effects/grass_color_modifier"
+    "op": "add",
+    "path": "/effects/grass_color_modifier",
+    "value": "dark_forest"
   },
+# {
+#   "op": "remove",
+#   "path": "/effects/grass_color_modifier"
+# },
   {
     "op": "replace",
     "path": "/effects/water_color",

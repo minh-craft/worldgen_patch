@@ -1,7 +1,0 @@
-[
-  {
-    "op": "replace",
-    "path": "/config/trunk_provider/state/Name",
-    "value": "minecraft:jungle_log"
-  }
-]

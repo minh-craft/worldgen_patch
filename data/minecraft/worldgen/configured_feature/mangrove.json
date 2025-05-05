@@ -19,7 +19,7 @@
     "trunk_provider": {
       "type": "minecraft:simple_state_provider",
       "state": {
-        "Name": "minecraft:mangrove_log",
+        "Name": "minecraft:jungle_log",
         "Properties": {
           "axis": "y"
         }
@@ -68,14 +68,11 @@
         "max_root_length": 15,
         "random_skew_chance": 0.2,
         "can_grow_through": "#minecraft:mangrove_roots_can_grow_through",
-        "muddy_roots_in": [
-          "minecraft:mud",
-          "minecraft:muddy_mangrove_roots"
-        ],
+        "muddy_roots_in": [],
         "muddy_roots_provider": {
           "type": "minecraft:simple_state_provider",
           "state": {
-            "Name": "minecraft:muddy_mangrove_roots",
+            "Name": "minecraft:mangrove_roots",
             "Properties": {
               "axis": "y"
             }
