@@ -1,0 +1,7 @@
+[
+  {
+    "op": "replace",
+    "path": "/config/features/1/feature",
+    "value": "minecraft:fancy_oak_checked"
+  }
+]

@@ -1,11 +1,11 @@
 {
   "type": "minecraft:random_selector",
   "config": {
-    "default": "minecraft:cherry_bees_005",
+    "default": "minecraft:cherry_checked",
     "features": [
       {
         "chance": 0.2,
-        "feature": "minecraft:oak"
+        "feature": "minecraft:oak_checked"
       }
     ]
   }

@@ -1,8 +1,25 @@
-{
-  "op": "add",
-  "path": "/config/features/-",
-  "value": {
-    "feature": "hybrid_beta:fancy_oak_seasonal",
-    "chance": 0.13
+[
+  {
+    "op": "replace",
+    "path": "/config/default",
+    "value": "minecraft:oak_checked"
+  },
+  {
+    "op": "replace",
+    "path": "/config/features/0/feature",
+    "value": "minecraft:birch_checked"
+  },
+  {
+    "op": "replace",
+    "path": "/config/features/1/feature",
+    "value": "minecraft:fancy_oak_checked"
+  },
+  {
+    "op": "add",
+    "path": "/config/features/-",
+    "value": {
+      "feature": "hybrid_beta:fancy_oak_seasonal",
+      "chance": 0.13
+    }
   }
-}
+]

@@ -5,10 +5,15 @@
     "value": {
       "chance": 0.05,
       "feature": {
-        "feature": "minecraft:fancy_oak_bees_005",
+        "feature": "minecraft:fancy_oak",
         "placement": []
       }
     }
+  },
+  {
+    "op": "replace",
+    "path": "/config/default/feature",
+    "value": "minecraft:oak"
   },
   {
     "op": "add",
