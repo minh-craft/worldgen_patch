@@ -1,5 +1,5 @@
 {
-  "feature": "custom_biomes:ore_diamond_old",
+  "feature": "custom_biomes:ore_diamond_buried",
   "placement": [
     {
       "type": "minecraft:count",
