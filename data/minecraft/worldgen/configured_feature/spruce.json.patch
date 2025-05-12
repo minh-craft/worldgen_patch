@@ -1,8 +1,9 @@
 [
   {
     "op": "replace",
-    "path": "/config/foliage_placer/trunk_height/value",
+    "path": "/config/foliage_placer/trunk_height",
     "value": {
+      "type": "minecraft:uniform",
       "max_inclusive": 4,
       "min_inclusive": 1
     }
@@ -12,10 +13,8 @@
     "path": "/config/foliage_placer/radius",
     "value": {
       "type": "minecraft:uniform",
-      "value": {
-        "min_inclusive": 2,
-        "max_inclusive": 4
-      }
+      "min_inclusive": 2,
+      "max_inclusive": 4
     }
   },
   {

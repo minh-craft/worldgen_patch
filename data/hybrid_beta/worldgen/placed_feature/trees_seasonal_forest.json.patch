@@ -1,7 +1,8 @@
 {
   "op": "replace",
-  "path": "/placement/0/count/value",
+  "path": "/placement/0/count",
   "value": {
+    "type": "minecraft:clamped_normal",
     "mean": 1,
     "deviation": 6,
     "min_inclusive": 2,
