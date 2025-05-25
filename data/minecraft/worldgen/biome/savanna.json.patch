@@ -59,6 +59,11 @@
     "op": "add",
     "path": "/features/9/-",
     "value": "custom_biomes:acacia_bush"
+  },
+  {
+    "op": "add",
+    "path": "/has_precipitation",
+    "value": true
   }
 # {
 #   "op": "find",
