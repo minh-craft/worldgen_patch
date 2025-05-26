@@ -4,7 +4,7 @@
     "path": "/argument1/argument2/argument/argument2",
     "value": {
       "type": "minecraft:mul",
-      "argument1": 1.06,
+      "argument1": 1.0,
       "argument2": "hybrid_beta:overworld/factor"
     }
   }
