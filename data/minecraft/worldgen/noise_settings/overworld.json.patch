@@ -1,4 +1,5 @@
 [
+# change temperature scale ###################################
   {
     "op": "replace",
     "path": "/noise_router/temperature",
@@ -25,6 +26,7 @@
 #   "path": "/noise_router/temperature/xz_scale",
 #   "value": 0.28
 # },
+# change vegetation scale ###################################
   {
     "op": "replace",
     "path": "/noise_router/vegetation",
@@ -47,13 +49,13 @@
 #   "path": "/noise_router/vegetation/xz_scale",
 #   "value": 0.30
 # },
-# disable ore veins
+# disable ore veins ###################################
   {
     "op": "replace",
     "path": "/ore_veins_enabled",
     "value": false
   },
-# sandy beach threshold
+# sandy beach threshold ###################################
   {
     "op": "replace",
     "path": "/surface_rule/sequence/1/then_run/sequence/1/then_run/then_run/sequence/0/then_run/then_run/sequence/0/if_true",
@@ -65,7 +67,7 @@
       "max_threshold": 1.7976931348623157E308
     }
   },
-# gravel beach threshold
+# gravel beach threshold ###################################
   {
     "op": "replace",
     "path": "/surface_rule/sequence/1/then_run/sequence/1/then_run/then_run/sequence/0/then_run/then_run/sequence/1/if_true",
@@ -77,13 +79,13 @@
 # default is -0.4
     }
   },
-# replace coarse dirt with podzol in old growth forests
+# replace coarse dirt with podzol in old growth forests ###################################
   {
     "op": "replace",
     "path": "/surface_rule/sequence/1/then_run/sequence/6/then_run/then_run/sequence/1/sequence/7/then_run/sequence/0/then_run/result_state/Name",
     "value": "minecraft:podzol"
   },
-# noise caves only below y=0
+# noise caves only below y=0 ###################################
   {
     "op": "replace",
     "path": "/noise_router/final_density",
@@ -120,8 +122,8 @@
                         "type": "minecraft:mul",
                         "argument1": {
                           "type": "minecraft:y_clamped_gradient",
-                          "from_y": 128,
-                          "to_y": 136,
+                          "from_y": 136,
+                          "to_y": 148,
                           "from_value": 1,
                           "to_value": 0
                         },

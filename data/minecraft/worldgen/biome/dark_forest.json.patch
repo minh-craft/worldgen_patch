@@ -1,16 +1,17 @@
 [
-#   {
-#     "op": "remove",
-#     "path": "/effects/grass_color_modifier"
-#   },
-#   {
-#     "op": "add",
-#     "path": "/effects/grass_color",
-#     "value": 5738804
-# # 5274162 # dark forest default
-# # 6998329 # beta forest
-# # 5738804
-#   },
+  {
+    "op": "remove",
+    "path": "/effects/grass_color_modifier"
+  },
+  {
+    "op": "add",
+    "path": "/effects/grass_color",
+    "value": 5610028
+# 5274162 # dark forest default
+# 6998329 # beta forest
+# 5738804
+# 5610028
+  },
   {
     "op": "include",
     "path": "add_clay_disk"
