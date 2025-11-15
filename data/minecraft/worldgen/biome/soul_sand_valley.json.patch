@@ -1,0 +1,26 @@
+[
+  {
+    "op": "find",
+    "path": "/features/7",
+    "test": {
+      "path": "",
+      "value": "minecraft:ore_ancient_debris_large"
+    },
+    "then": {
+      "op": "remove",
+      "path": ""
+    }
+  },
+  {
+    "op": "find",
+    "path": "/features/7",
+    "test": {
+      "path": "",
+      "value": "minecraft:ore_debris_small"
+    },
+    "then": {
+      "op": "remove",
+      "path": ""
+    }
+  }
+]
