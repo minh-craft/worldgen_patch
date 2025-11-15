@@ -1,0 +1,14 @@
+[
+  {
+    "op": "replace",
+    "path": "/generator/biome_source/biomes/2/parameters/temperature",
+# 2 is crimson forest
+    "value": 1
+  },
+  {
+    "op": "replace",
+    "path": "/generator/biome_source/biomes/3/parameters/humidity",
+# 3 is warped forest
+    "value": 1
+  }
+]
