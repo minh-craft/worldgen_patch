@@ -22,7 +22,24 @@
     }
   },
   {
+    "op": "find",
+    "path": "/features/9",
+    "test": {
+      "path": "",
+      "value": "minecraft:patch_grass_badlands"
+    },
+    "then": {
+      "op": "remove",
+      "path": ""
+    }
+  },
+  {
     "op": "include",
     "path": "add_lake_water"
+  },
+  {
+    "op": "add",
+    "path": "/features/9/-",
+    "value": "minecraft:patch_dry_grass_desert"
   }
 ]

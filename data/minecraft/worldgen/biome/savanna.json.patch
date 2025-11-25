@@ -56,6 +56,30 @@
     }
   },
   {
+    "op": "find",
+    "path": "/features/9",
+    "test": {
+      "path": "",
+      "value": "hybrid_beta:patch_grass_savanna"
+    },
+    "then": {
+      "op": "remove",
+      "path": ""
+    }
+  },
+  {
+    "op": "find",
+    "path": "/features/9",
+    "test": {
+      "path": "",
+      "value": "minecraft:flower_warm"
+    },
+    "then": {
+      "op": "remove",
+      "path": ""
+    }
+  },
+  {
     "op": "add",
     "path": "/features/9/-",
     "value": "custom_biomes:acacia_bush"
@@ -64,6 +88,11 @@
     "op": "add",
     "path": "/has_precipitation",
     "value": true
+  },
+  {
+    "op": "add",
+    "path": "/features/9/-",
+    "value": "custom_biomes:patch_dry_grass_savanna"
   }
 # {
 #   "op": "find",
