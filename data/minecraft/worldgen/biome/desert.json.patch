@@ -34,6 +34,18 @@
     }
   },
   {
+    "op": "find",
+    "path": "/features/9",
+    "test": {
+      "path": "",
+      "value": "minecraft:flower_default"
+    },
+    "then": {
+      "op": "remove",
+      "path": ""
+    }
+  },
+  {
     "op": "include",
     "path": "add_lake_water"
   },
