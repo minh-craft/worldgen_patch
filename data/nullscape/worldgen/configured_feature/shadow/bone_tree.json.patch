@@ -1,0 +1,7 @@
+[
+  {
+    "op": "replace",
+    "path": "/config/default/feature/config/foliage_provider/entries/0/data/Name",
+    "value": "minecraft:sponge"
+  }
+]
