@@ -1,0 +1,14 @@
+[
+  {
+    "op": "remove",
+    "path": "/effects/ambient_sound"
+  },
+  {
+    "op": "remove",
+    "path": "/effects/mood_sound"
+  },
+  {
+    "op": "remove",
+    "path": "/effects/additions_sound"
+  }
+]

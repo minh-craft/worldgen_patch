@@ -1,0 +1,6 @@
+[
+  {
+    "op": "remove",
+    "path": "/effects/mood_sound"
+  }
+]
